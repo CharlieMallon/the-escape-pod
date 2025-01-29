@@ -1,26 +1,57 @@
 /* Font - mote */
 
+/* --- base Classes --- */
+
 :root {
     --brown: #3B1804;
     --white: #ffffff;
 }
 
+/* Visually hides item, use to give extra info to screen readers */
+.sr-only{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+}
+
+/* completely hides item, visually and for screen readers */
+.hidden{
+    display: none;
+}
+
+/* --- Header and Nav Bar --- */
+
+/* topNav */
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
     background-color: var(--brown);
+
 }
 
 h1 {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
-.hidden{
-    display: none;
+nav{
+    background-color: var(--brown);
+    align-items: flex-end;
 }
 
 .nav-img{
@@ -28,8 +59,27 @@ h1 {
     margin: 10px;
 }
 
-.title{
-    display: flex;
-    flex-direction: row;
+.burger{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 0px 0px;
+    margin: 0;
+}
+
+.nav-item{
+    list-style-type: none;
+    padding: 14px 16px;
+    width: 250px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
 }
