@@ -2,6 +2,9 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+        <!-- ./fonts -->
         <link rel="stylesheet" href="../static/style.css">
         <title>The Escape Pod</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -9,30 +12,34 @@
     </head>
     <body>
         <header>
-            <img src="assets/img/logo.jpg" alt="The Escape Pod's Logo">
-            THE ESCAPE POD
+            <div class="title">
+                <img src="assets/img/favicon.png" alt="The Escape Pod's Logo" class="nav-img">
+                <h1>
+                    THE ESCAPE POD
+                </h1>
+            </div>
             <nav>
                 <!--Burger Icon-->
-                <img src="assets/img/burger-menu-svgrepo-com.svg" alt="open menu" width="28" height="28">
+                <img src="assets/img/burger-menu-svgrepo-com.svg" alt="open menu" class="nav-img">
                 <!--Nav Bar-->
-                <ul>
+                <ul class="menu hidden">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
                             Home
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/">
                             Services
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/">
                             About Me
                         </a>
                     </li>
-                    <li>
+                    <li class="nav-item">
                         <a class="nav-link" href="/">
                             Book a Treatment
                         </a>

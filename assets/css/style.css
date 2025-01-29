@@ -1,0 +1,35 @@
+/* Font - mote */
+
+:root {
+    --brown: #3B1804;
+    --white: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--brown);
+}
+
+h1 {
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+.nav-img{
+    height: 60px;
+    margin: 10px;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+
+}
