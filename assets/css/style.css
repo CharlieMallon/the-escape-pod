@@ -80,6 +80,36 @@ nav{
     font-size: 30px;
 }
 
+/* Footer */
+footer{
+    background-color: var(--brown);
+    color: var(--white);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social-links li{
+    list-style-type: none;
+    align-items: center;
+    align-content: center;
+    height: 75px;
+}
+
+.social-links li a{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
+}
+
+footer ul li a img{
+    height: 60px;
+    padding-top: 7px;
+}
+
 /* Most important */
 
 /* completely hides item, visually and for screen readers */
