@@ -12,6 +12,10 @@
     --white: #ffffff;
 }
 
+h1, h2, h3, h4, h5, p {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Visually hides item, use to give extra info to screen readers */
 .sr-only{
     border: 0;
@@ -57,7 +61,6 @@ header {
 
 h1 {
     color: var(--white);
-    font-family: 'Roboto', sans-serif;
     padding: 10px 0px;
     font-size: 30px;
     text-align: center;
