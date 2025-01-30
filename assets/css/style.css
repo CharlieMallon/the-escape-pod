@@ -152,14 +152,27 @@ footer ul li a img{
     background-size: cover;
 }
 
+.triangle {
+    height: 400px;
+    aspect-ratio: 1;
+    clip-path: polygon( 100% 100%, 100% 0, 0 0);
+    background: var(--white);
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+
 .boxes .box-text{
-    height: 100px;
+    height: 80px;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: var(--white);
     padding: 5px;
+    opacity: 1;
+    margin-top: 100px;
 }
 
 /* Most important */
