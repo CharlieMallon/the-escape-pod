@@ -1,5 +1,6 @@
 /* Font - mote */
 
+
 /* --- base Classes --- */
 
 :root {
@@ -18,11 +19,6 @@
     position: absolute;
     width: 1px;
     white-space: nowrap;
-}
-
-/* completely hides item, visually and for screen readers */
-.hidden{
-    display: none;
 }
 
 /* --- Header and Nav Bar --- */
@@ -54,19 +50,19 @@ nav{
     align-items: flex-end;
 }
 
-.nav-img{
+.nav-img, 
+.hamburger{
     height: 60px;
     margin: 10px;
 }
 
-.burger{
+.hamburger{
     position: absolute;
     right: 0;
     top: 0;
 }
 
-.menu{
-    display: flex;
+#menu{
     flex-direction: column;
     padding: 80px 0px 0px 0px;
     margin: 0;
@@ -82,4 +78,11 @@ nav{
     text-decoration: none;
     color: var(--white);
     font-size: 30px;
+}
+
+/* Most important */
+
+/* completely hides item, visually and for screen readers */
+.hidden{
+    display: none;
 }

@@ -5,10 +5,10 @@
         <!-- fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
         <!-- ./fonts -->
-        <link rel="stylesheet" href="../static/style.css">
+        <link rel="stylesheet" href="assets/css/hamburgers.css">
+        <link rel="stylesheet" href="assets/css/style.css"/>
         <title>The Escape Pod</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
-        <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
         <header>
@@ -20,9 +20,14 @@
             </div>
             <nav>
                 <!--Burger Icon-->
-                <img src="assets/img/burger-menu-svgrepo-com.svg" alt="open menu" class="nav-img burger">
+                <button class="hamburger hamburger--spring" type="button"
+                aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>  
                 <!--Nav Bar-->
-                <ul class="menu hidden">
+                <ul id="menu" class="hidden">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">
                             Home
@@ -53,5 +58,6 @@
             <aside>An aside element defines content that’s less important. It’s often used for sidebars—areas that add complementary but nonessential information.</aside>
         </main>
         <footer>social links, contact us, copyright ect</footer>
+        <script src="assets/scripts/scripts.js"></script>
     </body>
 </html>
