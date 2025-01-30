@@ -61,6 +61,9 @@ h1 {
     color: var(--white);
     font-family: 'Roboto', sans-serif;
     padding: 10px 0px;
+    font-size: 30px;
+    text-align: center;
+    width: -webkit-fill-available;
 }
 
 nav{
@@ -73,10 +76,6 @@ nav{
 .hamburger{
     height: 60px;
     padding: 10px;
-}
-
-.nav-img{
-    margin-right: 20px;
 }
 
 #menu{
