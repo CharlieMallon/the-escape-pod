@@ -43,6 +43,7 @@ Inspiration, code snippets, etc.
 * [DomPizzie - ReadMe template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 * [SVGrepo - Icons](https://www.svgrepo.com)
 * [Hamburgers by Jonathan Suh @jonsuh](https://github.com/jonsuh/hamburgers)
+* [triangle code](https://verpex.com/blog/website-tips/css-shapes-the-triangle#:~:text=Creating%20a%20Triangle%20Shape,need%20to%20draw%20a%20triangle.)
 
 Images
     Photo by <a href="https://unsplash.com/@chelseacgates?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chelsea Gates</a> on <a href="https://unsplash.com/photos/person-in-blue-shorts-sitting-on-beach-shore-during-daytime-n8L1VYaypcw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
