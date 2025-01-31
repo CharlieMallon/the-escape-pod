@@ -51,6 +51,7 @@ header {
     justify-content: space-between;
     align-items: flex-start;
     background-color: var(--brown);
+    z-index: 1;
 }
 
 .title{
